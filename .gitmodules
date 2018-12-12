@@ -1,0 +1,3 @@
+[submodule "DataSet/awesome_list_dataset/awesome_list_spider"]
+	path = DataSet/awesome_list_dataset/awesome_list_spider
+	url = git@github.com:indes/awesome_list_spider.git
