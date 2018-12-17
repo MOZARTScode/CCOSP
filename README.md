@@ -12,6 +12,19 @@
   
   3. 数据集[3]待添加  
 
+#### 爬虫
+	githubData文件夹：
+		环境：python3.6
+		框架：scrapy
+		依赖：mongoDB数据，下文installing环境
+		
+installing：
+     
+     pip install scrapy
+     pip install scrapy_proxies(代理)
+     pip install pymongo
+	
+
 #### 任务
   
         [王佳辉]  1.数据集的寻找：具有标签以及描述的数据，最好是拥有tag。
