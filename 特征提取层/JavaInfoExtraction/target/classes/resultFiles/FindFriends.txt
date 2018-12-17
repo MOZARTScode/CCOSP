@@ -1,0 +1,40 @@
+className: FindFriends
+packageName: sourceFiles 
+java.io.IOException
+java.util.ArrayList
+java.util.Arrays
+java.util.Collections
+java.util.Comparator
+java.util.HashMap
+java.util.Iterator
+java.util.List
+java.util.Map
+java.util.Map.Entry
+org.apache.commons.collections.map.HashedMap
+org.apache.hadoop.conf.Configuration
+org.apache.hadoop.fs.Path
+org.apache.hadoop.io.IntWritable
+org.apache.hadoop.io.LongWritable
+org.apache.hadoop.io.Text
+org.apache.hadoop.mapreduce.Job
+org.apache.hadoop.mapreduce.Mapper
+org.apache.hadoop.mapreduce.Reducer
+org.apache.hadoop.mapreduce.lib.input.FileInputFormat
+org.apache.hadoop.mapreduce.lib.output.FileOutputFormat
+org.apache.jasper.tagplugins.jstl.core.If
+
+input: 一行数据 output: <0 , 117-2>, <117, 0-2> 最后一个数字2代表共同好友ID 还需携带好友的信息<0 ,1->
+<0,117-2> <0,1220-2> <117,1220-2> <117, 12453-2>
+input, like: <0 , 117-2>、<0 , 1120-0> <0 , 12->  搜有的0开头的key值 output, like:<0 , 117,11,22>
+<非好友id,共同好友个数>
+先保存非 12- 这种类型的数据
+找到好友
+推荐好友
+加入map
+有这个key，只需要数量加一
+没有这个key
+将map按value排序，取前10个好友输出
+这里将map.entrySet()转换成list
+降序排列
+最多取10个数
+保存取的Sting值

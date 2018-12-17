@@ -1,0 +1,10 @@
+className: Triangle
+packageName: sourceFiles 
+randoop.org.checkerframework.common.reflection.qual.GetClass
+
+有错误的方法
+检查三角形的三边是否非负
+用于比较两个三角形的周长
+TODO Auto-generated method stub
+判断三角形的类型
+System.out.println((double) 100L + " " + (double) (byte)-1 + " " + 10.0d);

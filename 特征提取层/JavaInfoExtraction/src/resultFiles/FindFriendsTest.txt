@@ -1,0 +1,16 @@
+className: FindFriendsTest
+packageName: sourceFiles 
+java.io.IOException
+java.util.ArrayList
+java.util.List
+org.apache.hadoop.io.LongWritable
+org.apache.hadoop.io.Text
+org.apache.hadoop.mrunit.mapreduce.MapDriver
+org.apache.hadoop.mrunit.mapreduce.MapReduceDriver
+org.apache.hadoop.mrunit.mapreduce.ReduceDriver
+org.apache.hadoop.mrunit.types.Pair
+org.junit.Before
+org.junit.Test
+
+假设输入为： 0, 1-,2-,3- 4-1,5-1 3-2,4-2 2-3
+期望结果： 0 4 5 1 2 3 2 1 3 1 4 4 0 3 5 5 0 4
